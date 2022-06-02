@@ -170,8 +170,8 @@ section .title::after{
 
 .home{
     display: flex;
-    /* background: url("images/banner.jpg") no-repeat center; */
-    background-color: #111;
+    background: url("images/black_bg.jpg") no-repeat center;
+    
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -366,99 +366,9 @@ section .title::after{
     
 }
 
-/* Hobbies section styling */
 
 
 
-.hobbies .title::after{
-    
-}
-.hobbies .hobbies-content .column{
-    width: calc(50% - 100px);
-}
-.hobbies .hobbies-content .left .text{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.hobbies .hobbies-content .left p{
-    text-align: justify;
-}
-.hobbies .hobbies-content .left a{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-}
-.hobbies .hobbies-content .left a:hover{
-    color: crimson;
-    background: none;
-}
-.hobbies .hobbies-content .right .bars{
-    margin-bottom: 15px;
-}
-.hobbies .hobbies-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-.hobbies .hobbies-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-.hobbies .hobbies-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-.hobbies .hobbies-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgb(20, 220, 67);
-}
-.hobbies-content .right .cricket::before{
-    width: 100%;
-}
-.hobbies-content .right .badminton::before{
-    width: 100%;
-}
-.hobbies-content .right .vollyball::before{
-    width: 100%;
-}
-.hobbies-content .right .trekking::before{
-    width: 100%;
-}
-.hobbies-content .right .gaming::before{
-    width: 100%;
-}
-
-
-
-
-
-.hobbies-content .left #read_more_btn{
-    display: inline-block;
-    background: grey;
-    color: #fff;
-    font-size: 15px;
-    padding: 9px 10px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid gray;
-    transition: all 0.3s ease;
-}
 
 
 
@@ -557,20 +467,35 @@ section .title::after{
   color: crimson;
   background: none;
 }
+
+
+
+
+
+
 /* footer section styling */
 footer{
-    background: #111;
-    padding: 15px 23px;
-    color: #fff;
+    background: white;
+    
+    color: black;
     text-align: center;
 }
-footer span a{
-    color: crimson;
+footer  a{
+    
     text-decoration: none;
+    padding: 10px;
+    
 }
-footer span a:hover{
-    text-decoration: underline;
+footer  a:hover{
+    color: rgb(28, 203, 40);
 }
+
+
+
+
+
+
+
 
 
 /* responsive media query start */
